@@ -1,0 +1,6 @@
+framework module Pods_neoUITests {
+  umbrella header "Pods-neoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

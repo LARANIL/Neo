@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76B33DEF8F1F9CBEE375F826 /* Pods_neo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5703D9ABA208A5FC21DD367B /* Pods_neo.framework */; };
+		918615D11EFBD0630026D39E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918615D01EFBD0630026D39E /* AppDelegate.swift */; };
+		918615D31EFBD0630026D39E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918615D21EFBD0630026D39E /* ViewController.swift */; };
+		918615D61EFBD0630026D39E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918615D41EFBD0630026D39E /* Main.storyboard */; };
+		918615D81EFBD0630026D39E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918615D71EFBD0630026D39E /* Assets.xcassets */; };
+		918615DB1EFBD0630026D39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918615D91EFBD0630026D39E /* LaunchScreen.storyboard */; };
+		918615E61EFBD0630026D39E /* neoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918615E51EFBD0630026D39E /* neoTests.swift */; };
+		918615F11EFBD0630026D39E /* neoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918615F01EFBD0630026D39E /* neoUITests.swift */; };
+		9AD227B514EAF54D328A43A7 /* Pods_neoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A1BDAFB94E77AE8440013A /* Pods_neoTests.framework */; };
+		E1AAEF0DDF13D80D4960EBED /* Pods_neoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F444CA7A940B629FF8931F /* Pods_neoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		918615E21EFBD0630026D39E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 918615C51EFBD0630026D39E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 918615CC1EFBD0630026D39E;
+			remoteInfo = neo;
+		};
+		918615ED1EFBD0630026D39E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 918615C51EFBD0630026D39E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 918615CC1EFBD0630026D39E;
+			remoteInfo = neo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02233813E16617753E588415 /* Pods-neoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neoTests/Pods-neoTests.release.xcconfig"; sourceTree = "<group>"; };
+		101E046CCF4937235153DBBC /* Pods-neoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neoUITests/Pods-neoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33AAFD91029CD44A6148FF52 /* Pods-neo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neo/Pods-neo.debug.xcconfig"; sourceTree = "<group>"; };
+		35B90F95274E58860CFB38B5 /* Pods-neo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neo.release.xcconfig"; path = "Pods/Target Support Files/Pods-neo/Pods-neo.release.xcconfig"; sourceTree = "<group>"; };
+		5703D9ABA208A5FC21DD367B /* Pods_neo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F444CA7A940B629FF8931F /* Pods_neoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		918615CD1EFBD0630026D39E /* neo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		918615D01EFBD0630026D39E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		918615D21EFBD0630026D39E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		918615D51EFBD0630026D39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		918615D71EFBD0630026D39E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		918615DA1EFBD0630026D39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		918615DC1EFBD0630026D39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		918615E11EFBD0630026D39E /* neoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		918615E51EFBD0630026D39E /* neoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neoTests.swift; sourceTree = "<group>"; };
+		918615E71EFBD0630026D39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		918615EC1EFBD0630026D39E /* neoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		918615F01EFBD0630026D39E /* neoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neoUITests.swift; sourceTree = "<group>"; };
+		918615F21EFBD0630026D39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91D715C60649B722CE3041E /* Pods-neoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neoTests/Pods-neoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6A1BDAFB94E77AE8440013A /* Pods_neoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4E9916B507ADD5649DB454 /* Pods-neoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neoUITests/Pods-neoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		918615CA1EFBD0630026D39E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B33DEF8F1F9CBEE375F826 /* Pods_neo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918615DE1EFBD0630026D39E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD227B514EAF54D328A43A7 /* Pods_neoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918615E91EFBD0630026D39E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AAEF0DDF13D80D4960EBED /* Pods_neoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		480214FBD80EB5AC38291AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5703D9ABA208A5FC21DD367B /* Pods_neo.framework */,
+				D6A1BDAFB94E77AE8440013A /* Pods_neoTests.framework */,
+				87F444CA7A940B629FF8931F /* Pods_neoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		918615C41EFBD0620026D39E = {
+			isa = PBXGroup;
+			children = (
+				918615CF1EFBD0630026D39E /* neo */,
+				918615E41EFBD0630026D39E /* neoTests */,
+				918615EF1EFBD0630026D39E /* neoUITests */,
+				918615CE1EFBD0630026D39E /* Products */,
+				AFED33C775CC1A7382A877D4 /* Pods */,
+				480214FBD80EB5AC38291AA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		918615CE1EFBD0630026D39E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				918615CD1EFBD0630026D39E /* neo.app */,
+				918615E11EFBD0630026D39E /* neoTests.xctest */,
+				918615EC1EFBD0630026D39E /* neoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		918615CF1EFBD0630026D39E /* neo */ = {
+			isa = PBXGroup;
+			children = (
+				918615D01EFBD0630026D39E /* AppDelegate.swift */,
+				918615D21EFBD0630026D39E /* ViewController.swift */,
+				918615D41EFBD0630026D39E /* Main.storyboard */,
+				918615D71EFBD0630026D39E /* Assets.xcassets */,
+				918615D91EFBD0630026D39E /* LaunchScreen.storyboard */,
+				918615DC1EFBD0630026D39E /* Info.plist */,
+			);
+			path = neo;
+			sourceTree = "<group>";
+		};
+		918615E41EFBD0630026D39E /* neoTests */ = {
+			isa = PBXGroup;
+			children = (
+				918615E51EFBD0630026D39E /* neoTests.swift */,
+				918615E71EFBD0630026D39E /* Info.plist */,
+			);
+			path = neoTests;
+			sourceTree = "<group>";
+		};
+		918615EF1EFBD0630026D39E /* neoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				918615F01EFBD0630026D39E /* neoUITests.swift */,
+				918615F21EFBD0630026D39E /* Info.plist */,
+			);
+			path = neoUITests;
+			sourceTree = "<group>";
+		};
+		AFED33C775CC1A7382A877D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33AAFD91029CD44A6148FF52 /* Pods-neo.debug.xcconfig */,
+				35B90F95274E58860CFB38B5 /* Pods-neo.release.xcconfig */,
+				B91D715C60649B722CE3041E /* Pods-neoTests.debug.xcconfig */,
+				02233813E16617753E588415 /* Pods-neoTests.release.xcconfig */,
+				DB4E9916B507ADD5649DB454 /* Pods-neoUITests.debug.xcconfig */,
+				101E046CCF4937235153DBBC /* Pods-neoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		918615CC1EFBD0630026D39E /* neo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918615F51EFBD0630026D39E /* Build configuration list for PBXNativeTarget "neo" */;
+			buildPhases = (
+				D5A4EAF4262E81B2FA8663D0 /* [CP] Check Pods Manifest.lock */,
+				918615C91EFBD0630026D39E /* Sources */,
+				918615CA1EFBD0630026D39E /* Frameworks */,
+				918615CB1EFBD0630026D39E /* Resources */,
+				83A3B7530784C3DCF441C234 /* [CP] Embed Pods Frameworks */,
+				7B93A244B1FCBDADB726EB58 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = neo;
+			productName = neo;
+			productReference = 918615CD1EFBD0630026D39E /* neo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		918615E01EFBD0630026D39E /* neoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918615F81EFBD0630026D39E /* Build configuration list for PBXNativeTarget "neoTests" */;
+			buildPhases = (
+				F1D8058CD138B05108C7FF5B /* [CP] Check Pods Manifest.lock */,
+				918615DD1EFBD0630026D39E /* Sources */,
+				918615DE1EFBD0630026D39E /* Frameworks */,
+				918615DF1EFBD0630026D39E /* Resources */,
+				EFE75EA75D5BA5D2C8C0270A /* [CP] Embed Pods Frameworks */,
+				FEFA4E7174812BCAC4247C4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				918615E31EFBD0630026D39E /* PBXTargetDependency */,
+			);
+			name = neoTests;
+			productName = neoTests;
+			productReference = 918615E11EFBD0630026D39E /* neoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		918615EB1EFBD0630026D39E /* neoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918615FB1EFBD0630026D39E /* Build configuration list for PBXNativeTarget "neoUITests" */;
+			buildPhases = (
+				C0DDD8084941A3BBCD04F551 /* [CP] Check Pods Manifest.lock */,
+				918615E81EFBD0630026D39E /* Sources */,
+				918615E91EFBD0630026D39E /* Frameworks */,
+				918615EA1EFBD0630026D39E /* Resources */,
+				F05DD315FCFA59547D8C93D8 /* [CP] Embed Pods Frameworks */,
+				5F33C9D4F9356B22577586FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				918615EE1EFBD0630026D39E /* PBXTargetDependency */,
+			);
+			name = neoUITests;
+			productName = neoUITests;
+			productReference = 918615EC1EFBD0630026D39E /* neoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		918615C51EFBD0630026D39E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ezycollect;
+				TargetAttributes = {
+					918615CC1EFBD0630026D39E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JMR94GMHS3;
+						ProvisioningStyle = Automatic;
+					};
+					918615E01EFBD0630026D39E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 918615CC1EFBD0630026D39E;
+					};
+					918615EB1EFBD0630026D39E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 918615CC1EFBD0630026D39E;
+					};
+				};
+			};
+			buildConfigurationList = 918615C81EFBD0630026D39E /* Build configuration list for PBXProject "neo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 918615C41EFBD0620026D39E;
+			productRefGroup = 918615CE1EFBD0630026D39E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				918615CC1EFBD0630026D39E /* neo */,
+				918615E01EFBD0630026D39E /* neoTests */,
+				918615EB1EFBD0630026D39E /* neoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		918615CB1EFBD0630026D39E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918615DB1EFBD0630026D39E /* LaunchScreen.storyboard in Resources */,
+				918615D81EFBD0630026D39E /* Assets.xcassets in Resources */,
+				918615D61EFBD0630026D39E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918615DF1EFBD0630026D39E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918615EA1EFBD0630026D39E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F33C9D4F9356B22577586FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neoUITests/Pods-neoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B93A244B1FCBDADB726EB58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neo/Pods-neo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A3B7530784C3DCF441C234 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neo/Pods-neo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0DDD8084941A3BBCD04F551 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A4EAF4262E81B2FA8663D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE75EA75D5BA5D2C8C0270A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neoTests/Pods-neoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05DD315FCFA59547D8C93D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neoUITests/Pods-neoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D8058CD138B05108C7FF5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEFA4E7174812BCAC4247C4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neoTests/Pods-neoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		918615C91EFBD0630026D39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918615D31EFBD0630026D39E /* ViewController.swift in Sources */,
+				918615D11EFBD0630026D39E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918615DD1EFBD0630026D39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918615E61EFBD0630026D39E /* neoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918615E81EFBD0630026D39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918615F11EFBD0630026D39E /* neoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		918615E31EFBD0630026D39E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 918615CC1EFBD0630026D39E /* neo */;
+			targetProxy = 918615E21EFBD0630026D39E /* PBXContainerItemProxy */;
+		};
+		918615EE1EFBD0630026D39E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 918615CC1EFBD0630026D39E /* neo */;
+			targetProxy = 918615ED1EFBD0630026D39E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		918615D41EFBD0630026D39E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				918615D51EFBD0630026D39E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		918615D91EFBD0630026D39E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				918615DA1EFBD0630026D39E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		918615F31EFBD0630026D39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		918615F41EFBD0630026D39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		918615F61EFBD0630026D39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AAFD91029CD44A6148FF52 /* Pods-neo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JMR94GMHS3;
+				INFOPLIST_FILE = neo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezycollect.neo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		918615F71EFBD0630026D39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B90F95274E58860CFB38B5 /* Pods-neo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JMR94GMHS3;
+				INFOPLIST_FILE = neo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezycollect.neo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		918615F91EFBD0630026D39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91D715C60649B722CE3041E /* Pods-neoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = neoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezycollect.neoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neo.app/neo";
+			};
+			name = Debug;
+		};
+		918615FA1EFBD0630026D39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02233813E16617753E588415 /* Pods-neoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = neoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezycollect.neoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neo.app/neo";
+			};
+			name = Release;
+		};
+		918615FC1EFBD0630026D39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4E9916B507ADD5649DB454 /* Pods-neoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = neoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezycollect.neoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = neo;
+			};
+			name = Debug;
+		};
+		918615FD1EFBD0630026D39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101E046CCF4937235153DBBC /* Pods-neoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = neoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezycollect.neoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = neo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		918615C81EFBD0630026D39E /* Build configuration list for PBXProject "neo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918615F31EFBD0630026D39E /* Debug */,
+				918615F41EFBD0630026D39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918615F51EFBD0630026D39E /* Build configuration list for PBXNativeTarget "neo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918615F61EFBD0630026D39E /* Debug */,
+				918615F71EFBD0630026D39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		918615F81EFBD0630026D39E /* Build configuration list for PBXNativeTarget "neoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918615F91EFBD0630026D39E /* Debug */,
+				918615FA1EFBD0630026D39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		918615FB1EFBD0630026D39E /* Build configuration list for PBXNativeTarget "neoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918615FC1EFBD0630026D39E /* Debug */,
+				918615FD1EFBD0630026D39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 918615C51EFBD0630026D39E /* Project object */;
+}
